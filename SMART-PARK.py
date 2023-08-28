@@ -45,7 +45,7 @@ def poc(target):
         return False
 def main():
     banner()
-    parser = argparse.ArgumentParser(description='SMART-PARK UploadFile EXP')
+    parser = argparse.ArgumentParser(description='SMART-PARK UploadFile POC')
     parser.add_argument("-u", "--url", dest="url", type=str, help=" example: http://www.example.com")
     parser.add_argument("-f", "--file", dest="file", type=str, help=" urls.txt")
     args = parser.parse_args()
